@@ -1,0 +1,18 @@
+1)Por que un lenguaje de programacion solo puede utilizarse en algunos SO y en oros no?
+Porque los lenguajes de programacion estan dise;ados con caracteristicas
+especificas y por tanto dependen de bibliotecas y recursos del sistema.
+Algunos est'an optimizados para cierto SO en particular. Ademas la arquitectura
+y APIs de los sistemas operativos pueden hacer que un lenguaje sea incompatible.
+
+2)VirtualBox es capaz de crear y gestinar maquinas virtulaes que utilizan 
+diferentes arquitecturas, como x86 y x64.
+
+3)Un hypervisor es un software o una capa de virtualizacfi'on qeu permite crear y 
+gestionar maquinas virtulaes en un sistema fisico. Divide los recursos del 
+hardware en maquinas virtulaes separadas y aisladas entre si para que 
+funcionen como sistemas independientes.
+
+4)Si se llegara a romper una MV, no deberia afectar directamente a las 
+demas maquinas virtales en el mismo host. Esto debido a qeu estan aisladas
+entre si por el hypervisor y funcionan como entidades separadas.Sin embargo, 
+pueden existir problemas graves que afecten al host o a los recursos compartidos.
